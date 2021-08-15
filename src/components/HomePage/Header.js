@@ -79,6 +79,30 @@ export default function Header(props) {
                 >
                   Use Effect
                 </NavLink>
+
+                <NavLink
+                  activeClassName="active"
+                  className="dropdown-item bg-dark text-white"
+                  to="/reduxhook"
+                >
+                  Redux Hook Demo
+                </NavLink>
+
+                <NavLink
+                  activeClassName="active"
+                  className="dropdown-item bg-dark text-white"
+                  to="/ajaxrcc"
+                >
+                  Axios RCC
+                </NavLink>
+
+                <NavLink
+                  activeClassName="active"
+                  className="dropdown-item bg-dark text-white"
+                  to="/ajaxrfc"
+                >
+                  Axios RFC
+                </NavLink>
               </div>
             </li>
           </ul>
